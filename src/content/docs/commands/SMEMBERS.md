@@ -81,11 +81,6 @@ SMEMBERS key
 
   
 <!-- Optional -->
-## Alternatives
-<!-- below example from keys command -->
-- `SCAN`: The `SCAN` command is a cursor-based iterator that allows you to incrementally iterate over the keyspace without blocking the server. It is a more efficient alternative to `KEYS` for large datasets.
-
-<!-- Optional -->
 ## Notes
 <!-- below example from json.get command -->
 - The order of elements returned by `SMEMBERS` is not guaranteed to be consistent. Sets in DiceDB are unordered collections, so the order of elements may vary.
