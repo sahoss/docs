@@ -47,7 +47,7 @@ SREM key member [member ...]
 1. `Wrong type of value or key`:
 
    - Error Message: `(error) WRONGTYPE Operation against a key holding the wrong kind of value`
-   - his error is returned if the key exists but is not of the set data type.
+   - This error is returned if the key exists but is not of the set data type.
 
 2. `Invalid syntax`:
 
