@@ -46,7 +46,7 @@ SMEMBERS key
 1. `Wrong type of value or key`:
 
    - Error Message: `(error) WRONGTYPE Operation against a key holding the wrong kind of value`
-   - Occurs when attempting to use the command on a key that contains a non-string value.
+   - Occurs when attempting to use the command on a key that is of a non-set type.
 
 
 ## Example Usage
