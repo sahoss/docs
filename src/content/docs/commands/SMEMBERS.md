@@ -71,22 +71,6 @@ SMEMBERS key
 (empty array)
 ```
 
-### Error Case - Key Exists but is Not a Set
-
-```bash
-127.0.0.1:7379> SET foo bar PX 10000
-OK
-```
-
-### Setting only if key does not exist
-
-Setting a key `foo` only if it does not already exist
-
-```bash
-127.0.0.1:7379> SET mystring "hello"
-127.0.0.1:7379> SMEMBERS mystring
-(error) WRONGTYPE Operation against a key holding the wrong kind of value
-```
 
 <!-- Optional -->
 ## Best Practices
