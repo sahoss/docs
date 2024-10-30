@@ -85,6 +85,5 @@ SMEMBERS key
 <!-- below example from json.get command -->
 - The order of elements returned by `SMEMBERS` is not guaranteed to be consistent. Sets in DiceDB are unordered collections, so the order of elements may vary.
 - For large sets, consider using the `SSCAN` command to iterate over the set incrementally to avoid blocking the DiceDB server for a long time.
-- 
 By following this documentation, you should be able to effectively use the `SMEMBERS` command in DiceDB to retrieve all members of a set.
 
